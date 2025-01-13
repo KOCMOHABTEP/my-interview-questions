@@ -2,6 +2,17 @@
 // sum(1) => console: 1
 // sum(1)(2)(3) => console: 6
 
+/**
+ * function sum(a) {
+ *   return function(b){
+ *     if(b){
+ *       return sum(a+b);
+ *     }
+ *     return a;
+ *   }
+ * }
+ */
+
 function curry(f) { // curry(f) выполняет каррирование
     return function(a) {
         return f(a);

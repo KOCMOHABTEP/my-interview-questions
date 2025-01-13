@@ -62,7 +62,7 @@ console.log(7);
 
 // 1 7 3 5 2 6 4
 // Как работает event loop?
-// микротаски: promise,que microtask mutation observer
+// микротаски: promise,queueMicrotask, mutation observer
 // макротаски: setTimeout, setInterval, dom events
 
 /**
