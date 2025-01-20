@@ -155,8 +155,8 @@ Ref - постоянная ссылка, ее можно использоват�
 
 # Live-code
 ## 31. Решить задачу
-![img.png](screenshots/img.png)
-![img.png](screenshots/answer1.png)
+![img.png](img/quest1.png)
+![img.png](img/answer1.png)
 
 ## 32. Какая сложность была?
 Была O(n^2)  
