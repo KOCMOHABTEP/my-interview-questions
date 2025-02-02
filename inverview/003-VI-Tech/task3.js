@@ -10,10 +10,10 @@ F.prototype.b = 2;
 F.prototype.c = 3;
 
 delete obj.a;
-console.log(obj.a);
+console.log(obj.a); // 1
 delete obj.c;
-console.log(obj.b);
-console.log(obj.c);
+console.log(obj.b); // 5
+console.log(obj.c); // 3
 
 // Цепочка прототипов :
 //     Когда JavaScript не находит свойство в самом объекте, он автоматически ищет его в прототипе
