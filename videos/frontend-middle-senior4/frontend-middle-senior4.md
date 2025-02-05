@@ -62,7 +62,7 @@ Pick, Omit, Return Type, Awaited, Record, ReadOnly, Partial, Required
 2. Omit - также, только исключает вторым аргументом поля из типа  
 3. Record - структура данных, пример Record<string, string>  
 4. Partial - делает поля не обязательными  
-5. Required - делает все поля не обязательными  
+5. Required - делает все поля обязательными  
 6. Extract - создают тип, в генерик принимают тип, исключает из Union типа поля
 7. Exclude - 
 
