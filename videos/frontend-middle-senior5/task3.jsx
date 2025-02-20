@@ -39,5 +39,6 @@ export function App() {
 // useLayoutEffect, cleanup
 // useEffect 1, cleanup
 // useEffect 2, cleanup
+// useLayoutEffect
 // useEffect 1
 // useEffect 2
