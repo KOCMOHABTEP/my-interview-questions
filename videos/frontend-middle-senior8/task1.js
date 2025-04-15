@@ -63,13 +63,13 @@ console.log(obj["0"] + obj[0]); // -> 4, перезаписываем ключи
 
 // Что будет выведено?
 let name = 'Вася';
-function sayHi() {
+function sayHello() {
     console.log(name);
 }
 
 setTimeout(function () {
     let name = 'Петя';
-    sayHi(); // -> Выведется Вася, так как замкнули переменную Вася
+    sayHello(); // -> Выведется Вася, так как замкнули переменную Вася
 }, 1000)
 
 // Что будет выведено?

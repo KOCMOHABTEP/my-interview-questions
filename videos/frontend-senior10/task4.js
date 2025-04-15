@@ -11,6 +11,9 @@ Promise.resolve(5).then(console.log)
 setTimeout(() => console.log(6));
 
 console.log(7);
+// mtq []
+// tq  []
+// 7 2 5 1 4 6 3
 
 // 7 2 5 1 4 6 3
 // https://www.jsv9000.app/?code=c2V0VGltZW91dChmdW5jdGlvbiBwMSgpIHtyZXR1cm4gY29uc29sZS5sb2coMSl9KTsNCg0KUHJvbWlzZS5yZWplY3QoMikuY2F0Y2goZnVuY3Rpb24gcDIocmVhc29uKSB7cmV0dXJuIGNvbnNvbGUubG9nKHJlYXNvbil9KTsNCg0KUHJvbWlzZS5yZXNvbHZlKCkudGhlbihmdW5jdGlvbiBwMygpIHtzZXRUaW1lb3V0KGZ1bmN0aW9uIHAzMygpIHtjb25zb2xlLmxvZygzKSB9KX0pOw0KDQpuZXcgUHJvbWlzZShmdW5jdGlvbiBwNChyZXNvbHZlKSB7DQogICAgc2V0VGltZW91dChmdW5jdGlvbiBwNDQoKSB7cmVzb2x2ZSgpfSkNCn0pLnRoZW4oZnVuY3Rpb24gcDQ0NCgpe2NvbnNvbGUubG9nKDQpfSk7DQoNClByb21pc2UucmVzb2x2ZSg1KS50aGVuKGZ1bmN0aW9uIHA1KGRhdGEpIHtjb25zb2xlLmxvZyhkYXRhKX0pDQoNCnNldFRpbWVvdXQoZnVuY3Rpb24gcDYoKSB7Y29uc29sZS5sb2coNil9KTsNCg0KY29uc29sZS5sb2coNyk7

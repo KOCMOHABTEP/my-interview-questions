@@ -200,22 +200,38 @@ display: flex, align-content: center, justify-content:center
 ```javascript
 // Написать функцию которая проверяет строку на содержание в ней всех букв из списка ABC...Z
 
-
 const foo = (str) => {
-    const list = 'ABCD';
+    const list = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const hash = {};
 
-    for (let l in list) {
+    for (const l of list) {
+        hash[l] = 0;
+    }
+
+    for (const l of str) {
         hash[l] = 1;
     }
 
-    for (l in str) {
-        if (hash[l]) {
-            hash[l] = 0;
-        }
-    }
-    return [...Object.values(hash)].some(el => el)
+    console.log(hash)
+
+    return [...Object.values(hash)].every(el => el)
 };
+
+// const foo = (str) => {
+//     const list = 'ABCD';
+//     const hash = {};
+//
+//     for (let l in list) {
+//         hash[l] = 1;
+//     }
+//
+//     for (l in str) {
+//         if (hash[l]) {
+//             hash[l] = 0;
+//         }
+//     }
+//     return [...Object.values(hash)].some(el => el)
+// };
 
 ```
 
